@@ -10,6 +10,7 @@ gem 'puma', '>= 5.6.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
 # Use Uglifier as compressor for JavaScript assets
+gem 'sassc', '~> 2.4'
 gem 'uglifier', '~> 4.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
@@ -64,6 +65,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '< 3.0'
   gem 'spring-watcher-listen', '~> 2.0.1'
+  
 
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.4'
